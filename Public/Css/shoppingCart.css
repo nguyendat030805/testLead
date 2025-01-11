@@ -1,0 +1,235 @@
+body {
+    font-family: "Quicksand";
+}
+
+.shopping-cart {
+    padding: 140px 120px 30px 120px;
+}
+
+.shopping-cart-container1 {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px; 
+}
+
+.shopping-cart-container1 .cart-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopping-cart-container1 .cart-header h2, p {
+    color: #009C52;
+    font-weight: bold;
+}
+
+.shopping-cart-container1 .cart-header h2 {
+    margin-left: 70px;
+    font-size: 28px;
+}
+
+.shopping-cart-container1 .cart-header p {
+    margin-right: 40px;
+}
+
+.cart-title {
+    width: 100%;
+    display: flex;
+    color: #009C52;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.cart-title .cart-title1 {
+    width: 55%;
+    margin-left: 70px;
+}
+
+.cart-title .cart-title2 {
+    width: 15%;
+    display: flex;
+    justify-content: center; 
+}
+
+.cart-title .cart-title3 {
+    width: 20%; 
+    display: flex;
+    justify-content: center; 
+}
+
+.cart-title .cart-title4 {
+    width: 10%; 
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+
+.cart-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-item .delete-cart-item {
+    width: 5%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: red;
+    font-size: 20px;
+}
+
+.cart-item .delete-cart-item ion-icon:hover {
+    cursor: pointer;
+}
+
+.cart-item .product-info, .unit-price, .quantity, .line-total {
+    border-top: 1px solid #E5E5E5;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cart-item .product-info {
+    width: 55%;
+    margin-left: 15px;
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+
+.cart-item .product-info img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover;
+}
+
+.cart-item .product-info p {
+    color: black;
+}
+
+.cart-item .product-info p:first-child {
+    margin: 5px 0 10px 0;
+}
+
+.cart-item .product-info p:last-child {
+    font-weight: 500;
+}
+
+.cart-item .unit-price {
+    width: 15%;
+    display: flex;
+    justify-content: center;  
+}
+
+.cart-item .quantity {
+    width: 20%; 
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+}
+
+.cart-item .quantity .quantity-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #009C52;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-item .quantity .quantity-btn:hover {
+    cursor: pointer;
+    background-color: #0a6a3d;
+}
+
+.quantity-btn ion-icon {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cart-item .line-total {
+    width: 10%; 
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+
+.cart-footer  {
+    margin-top: 5px;
+    padding: 10px 0;
+    width: 91%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #009C52;
+    margin-left: 25px;
+}
+
+.cart-footer .order-btn {
+    background-color: #009C52;
+    border: none;
+    color: white;
+    width: 130px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 23px;
+} 
+
+.cart-footer .order-btn:hover {
+    cursor: pointer;
+    background-color: #0a6a3d;
+}
+
+.cart-footer .total-amount {
+    font-size: 20px; 
+    color: black;
+}
+
+.cart-footer .total-amount span {
+    margin-left: 10px;
+    color: #009C52;
+    font-size: 30px; 
+}
+
+/* div have no product */
+.shopping-cart-container2 {
+    margin: 10px 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    border-top: 10px solid #009C52;
+}
+
+.shopping-cart-container2 ion-icon {
+    margin: 0 25px 0 10px;
+    font-size: 40px;
+    color: #009C52;
+}
+
+.shopping-cart-container2 h1 {
+    font-size: 20px;
+}
+
+.shopping-cart .backtohome {
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #009C52;
+    color: white;
+    font-size: 20px;
+}
+
+.shopping-cart .backtohome:hover {
+    cursor: pointer;
+    background-color: #006234;
+}

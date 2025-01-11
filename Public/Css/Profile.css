@@ -1,0 +1,200 @@
+body {
+    font-family: "Quicksand", serif;
+    margin: 10px;
+    padding: 10px;
+}
+.container_profile {
+    margin-top: 100px;
+    display: flex;
+    padding: 10px;
+    width: 500px;
+    height: 550px;
+}
+.sidebar {
+    position: fixed;
+    width: 15%;
+    background-color:rgb(73, 212, 96);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.sidebar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.sidebar h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+.sidebar p {
+    margin: 0;
+    color: #666;
+}
+.sidebar .menu-profile {
+    margin-top: 20px;
+}
+.sidebar .menu-profile a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 0;
+    font-size: 16px;
+}
+.sidebar .menu-profile a:hover {
+    color: white;
+}
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.container_infor {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    /* margin-bottom: 10px ; */
+    margin: 0 20px ;
+    padding: 0 20px;
+    /* padding: 20px; */
+    padding-right: 30px;
+    position: relative;
+}
+.container_inforUser {
+    display: flex;
+    flex-direction: column;
+    border: 1px grey solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.form-group input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.form-group .save-changes {
+    width: 14%;
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid #28a745;
+    border-radius: 20px;
+    background-color: #28a745;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form-userAvatar img {
+    position: absolute;
+    top: 12%;
+    margin-left: 70%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 1px grey solid;
+    object-fit: cover;
+}
+.form-userAvatar input[type="file"] {
+    display: none;
+}
+.form-userAvatar .uploadImage {
+    position: absolute;
+    top: 45%;
+    margin-left: 71%;
+    width: 12%;
+    padding: 10px;
+    border: 2px solid #28a745;
+    border-radius: 20px;
+    color: #28a745;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.1s ease-out;
+}
+.form-userAvatar .uploadImage:hover {
+    transform: scale(1.01);
+}
+.container_changePassword {
+    display: flex;
+    flex-direction: column;
+    border: 1px grey solid;
+    border-radius: 10px;
+    padding: 15px;
+}
+.form-change label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.form-change {
+    margin-left: 60px;
+}
+.form-change input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.current_password {
+    position: relative;
+}
+.current_password input {
+    width:90%;
+}
+.changes-password {
+    display: flex;
+    gap: 90px;
+}
+.form-changePass {
+    width: 350px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.changes-password .password-container input{
+    width: 82%;
+    padding: 10px;
+    padding-right: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.password-container {
+    position: relative;
+}
+.form-change .change-password {
+    margin-top: 13px;
+    width: 18%;
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid #28a745;
+    border-radius: 20px;
+    background-color: #28a745;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.container_changePassword .current_password .password-eye {
+   position: absolute;
+   left: 88%;
+   top: 11px;
+}
+.password-container .password-eye {
+    position: absolute;
+    top: 11px;
+    left: 72%;
+}

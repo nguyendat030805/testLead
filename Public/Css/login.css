@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/background_regis_login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.login-form {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+}
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+.input-container {
+    position: relative;
+}
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    transition: border-color 0.3s ease;
+    padding-right: 40px;
+}
+.bi-eye {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button {
+    width: 100px;
+    border-radius: 20px;
+    background: #00b300;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+button:hover {
+    background: #009900;
+}
+.submit {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+.footer_login {
+    text-align: center;
+}
+.footer_login a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.footer_login a:hover {
+    color: blue;
+}
+
+#forgetPass {
+    margin-left: 110px;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.title {
+    display: flex;
+    background-color: green;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+}
+.title img{
+    width: 7%;
+    height:10%;
+    
+}
+.title .logout{
+    width: 10%;
+}
+.content {
+    display: flex;
+}
+
+.navigation {
+    border: none;
+    background-color: green;
+    padding: 20px 0;
+    width: 300px;
+    height: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.navigation .btn {
+    display: block;
+    width: 100%;
+    align-items: center;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navigation .btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navigation .btn:hover {
+    background-color: #575757;
+}
+
+.navigation .btn.active {
+    background-color: #333333;
+}
+
+.navigation .btn a i {
+    font-size: 20px;
+}
+
+.tableContent {
+    width: 100%;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.tableContent table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tableContent th,
+.tableContent td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.tableContent th {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+}
+
+.tableContent tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tableContent .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.tableContent .edit-btn,
+.tableContent .delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.tableContent .edit-btn {
+    background-color: #28a745;
+}
+
+.tableContent .delete-btn {
+    background-color: #dc3545;
+}
+
+.tableContent .edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.tableContent .delete-btn:hover {
+    background-color: #bd2130;
+}
+.decription {
+    word-wrap: break-word; 
+    word-break: break-word; 
+    line-height: 1.5; 
+    text-align: justify; 
+    padding: 10px; 
+    font-size: 16px; 
+    color: #333; 
+    background-color: #f9f9f9; 
+    border-radius: 5px; 
+    border: 1px solid #ddd; 
+    width: 30%;
+    height: 20%;
+    margin-top: 10px; 
+}
+.product_content img{
+    width: 50%;
+    height: 20%;
+}
+.product_content .img{
+    width: 20%;
+    height: 20%;
+}
+.create button{
+    width: 130px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;  
+    justify-content: space-between; 
+    font-size: 20px;
+    border: 1px solid black; 
+    text-decoration: none; 
+}
+.create a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.create button:hover{
+    background-color:#28a745;
+    cursor: pointer; 
+}
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination a:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+.pagination .active {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    cursor: default;
+}
+

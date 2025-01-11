@@ -1,0 +1,80 @@
+
+.products{
+    padding:20px;
+    padding-top:150px;
+}
+.products h1{
+    text-align: center;
+}
+.allProduct{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;    
+
+
+    
+}
+.filter-form{
+    border: 1px solid #ddd; /* Viền nhẹ */
+    border-radius: 10px; /* Bo tròn góc */
+    text-align: center;
+    height: 200px;
+    width: 30%;
+    overflow: hidden; 
+    background-color: #fff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    margin: 10px;
+}
+.ListProducts{
+    border: 1px solid #ddd; /* Viền nhẹ */
+    border-radius: 10px; /* Bo tròn góc */
+    width:100%;
+    text-align: center;
+    overflow: hidden; /* Đảm bảo nội dung không tràn */
+    background-color: #fff; /* Màu nền trắng */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    margin: 10px;
+}
+.ListProducts img{
+    width: 100%; /* Ảnh full chiều rộng */
+    height: 150px; /* Chiều cao cố định */
+    object-fit: contain; /* Giữ tỉ lệ ảnh, cắt phần dư */
+    border-bottom: 1px solid #ddd; 
+    transition: transform 0.3s ease;
+}
+.ListProducts img:hover{
+    transform: scale(1.2); 
+}
+.ListProducts a{
+    text-decoration: none;
+}
+.ListProducts h3{
+    color: black;
+}
+.price{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;  
+    font-size: 18px;  
+    font-weight: bold;  
+    color: #333;  
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.price button{
+    background-color: white;
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    border: 3px solid #45a049;
+    color: black;
+    font-weight:bold;
+    transition: background-color 0.3s ease;
+}
+
+.price button:hover{
+    background-color: #45a049;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
